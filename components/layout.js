@@ -32,8 +32,8 @@ export default function Layout({ children, home }) {
               priority
               src="/images/dalmatinForExample.jpg"
               className={utilStyles.borderCircle}
-              height={144}
-              width={144}
+              height={400}
+              width={400}
               alt=""
             />
             <h1 className={utilStyles.heading2Xl}>{name}</h1>
@@ -43,7 +43,7 @@ export default function Layout({ children, home }) {
             <Link href="/">
               <Image
                 priority
-                src="/images/profile.jpg"
+                src="/images/dalmatinForExample.jpg"
                 className={utilStyles.borderCircle}
                 height={108}
                 width={108}
